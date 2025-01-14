@@ -13,6 +13,7 @@ button{
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     transition-duration: 0.4s;
+    border-color: black;
 }
 button:hover{
     background-color: white !important;
