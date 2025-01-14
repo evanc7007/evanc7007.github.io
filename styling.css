@@ -12,6 +12,10 @@ button{
     height: 49px;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: white !important;
 }
 #github{
     background-color: rgb(186, 186, 186);
