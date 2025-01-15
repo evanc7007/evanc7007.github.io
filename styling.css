@@ -76,7 +76,22 @@ body{
     text-decoration: none;
 }
 .about{
-    height: 100vh;
+    min-height: 100vh;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.links{
+    min-height: 100vh;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .nav{
     display: flex;
@@ -106,4 +121,26 @@ body{
 }
 a:hover{
     color: #b19cd9;
+}
+.about-head{
+    position: relative;
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+    color: white;
+}
+.link-head{
+    position: relative;
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+    color: white;
+}
+.profile-text{
+    color:white;
+    width: 500px;
+    line-height: 1.8;
+    font-size: 1.8rem;
 }
