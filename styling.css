@@ -155,13 +155,13 @@ body{
 }
 @media (max-width: 1200px) {
     .nav {
-        margin-right:3rem
+        margin-right: 3rem;
     }
 }
 
 @media (max-width: 700px) {
     .nav {
-        margin-right:0
+        margin-left: auto;
     }
 }
 .nav-bar{
@@ -174,6 +174,7 @@ body{
     height: 5rem;
     border-bottom: 1px solid black;
     background-color: rgba(40,40,40,0.95);
+    z-index: 999;
 }
 @media (max-width: 700px) {
     .nav-bar {
@@ -196,6 +197,20 @@ a:hover{
     margin-top: 13rem;
     margin-bottom: 13rem;
     color: white;
+    text-align: center;
+}
+.about-head::before{
+    position: absolute;
+    content: '';
+    border-bottom: 5px solid #b19cd9;
+    width: 30rem;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    right: 0rem;
+    top: 8rem;
+    border-radius: 2rem;
+    z-index: -1
 }
 .about-content{
     display: flex;
@@ -204,6 +219,58 @@ a:hover{
 }
 @media (max-width: 1300px) {
     .about-content {
+        flex-direction:column
+    }
+}
+.skills{
+    min-height: 100vh;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 1500px) {
+    .skills {
+        width:1100px
+    }
+}
+
+@media (max-width: 1200px) {
+    .skills {
+        width:auto
+    }
+}
+.skills-head{
+    position: relative;
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+    color: white;
+    text-align: center;
+}
+.skills-head::before{
+    position: absolute;
+    content: '';
+    border-bottom: 5px solid #b19cd9;
+    width: 30rem;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    right: 0rem;
+    top: 8rem;
+    border-radius: 2rem;
+    z-index: -1
+}
+.skills-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+@media (max-width: 1300px) {
+    .skills-content {
         flex-direction:column
     }
 }
@@ -237,12 +304,27 @@ a:hover{
     margin-top: 13rem;
     margin-bottom: 13rem;
     color: white;
+    text-align: center;
+}
+.link-head::before{
+    position: absolute;
+    content: '';
+    border-bottom: 5px solid #b19cd9;
+    width: 30rem;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    right: 0rem;
+    top: 8rem;
+    border-radius: 2rem;
+    z-index: -1
 }
 .profile-text{
     color:white;
     width: 500px;
     line-height: 1.8;
     font-size: 1.8rem;
+    font-weight: 350;
 }
 @media (max-width: 600px) {
     .profile-text {
