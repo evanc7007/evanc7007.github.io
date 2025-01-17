@@ -314,7 +314,12 @@ a:hover{
 .skills-row-cont{
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 40vw;
+}
+@media (max-width: 1300px) {
+    .skills-row-cont {
+        width: 100% ;
+    }
 }
 .profile{
     position: relative;
