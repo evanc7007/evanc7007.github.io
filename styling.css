@@ -222,6 +222,43 @@ a:hover{
         flex-direction:column
     }
 }
+.skills-text-cont {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1301px) {
+    .skills-text-cont {
+        margin-bottom:10rem;
+        left: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .skills-text-cont {
+        margin-bottom:7rem;
+    }
+}
+.skills-text {
+    font-size: 1.8rem;
+    width: 500px;
+    line-height: 1.8;
+    color:white;
+    font-weight: 350;
+}
+
+@media (max-width: 600px) {
+    .skills-text {
+        width:80vw;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
 .skills{
     min-height: 100vh;
     width: 1300px;
@@ -266,13 +303,18 @@ a:hover{
 }
 .skills-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
 }
 @media (max-width: 1300px) {
     .skills-content {
         flex-direction:column
     }
+}
+.skills-row-cont{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 .profile{
     position: relative;
@@ -296,6 +338,28 @@ a:hover{
     .profile {
         margin-bottom:7rem
     }
+}
+.skills-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.skills-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 130px;
+    border: solid 3px #b19cd9;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 3rem;
 }
 .link-head{
     position: relative;
