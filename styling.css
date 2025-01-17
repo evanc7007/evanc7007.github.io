@@ -194,8 +194,8 @@ a:hover{
     position: relative;
     font-size: 5.5rem;
     font-weight: 700;
-    margin-top: 13rem;
-    margin-bottom: 13rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
     color: white;
     text-align: center;
 }
@@ -246,8 +246,8 @@ a:hover{
     position: relative;
     font-size: 5.5rem;
     font-weight: 700;
-    margin-top: 13rem;
-    margin-bottom: 13rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
     color: white;
     text-align: center;
 }
@@ -301,8 +301,8 @@ a:hover{
     position: relative;
     font-size: 5.5rem;
     font-weight: 700;
-    margin-top: 13rem;
-    margin-bottom: 13rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
     color: white;
     text-align: center;
 }
@@ -321,7 +321,7 @@ a:hover{
 }
 .profile-text{
     color:white;
-    width: 500px;
+    width: 550px;
     line-height: 1.8;
     font-size: 1.8rem;
     font-weight: 350;
@@ -332,4 +332,11 @@ a:hover{
         margin-left: auto;
         margin-right: auto
     }
+}
+.club-link{
+    text-decoration: none;
+    color:#b19cd9;
+}
+.club-link:hover{
+    color: white;
 }
