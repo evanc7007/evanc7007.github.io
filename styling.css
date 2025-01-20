@@ -513,7 +513,7 @@ a:hover{
 .home-button{
     height: 3rem;
     position: relative;
-    bottom: 2.5rem;
+    top: 3.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
