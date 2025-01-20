@@ -132,6 +132,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 6rem;
 }
 @media (max-width: 1500px) {
     .links {
@@ -408,4 +409,124 @@ a:hover{
 }
 .c-link:hover{
     color: white;
+}
+.image-size{
+    width: 17rem;
+    height: 17rem;
+}
+@media (max-width: 600px) {
+    .image-size {
+        width: 14rem;
+        height: 14rem;
+    }
+}
+.link-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70rem;
+    height: 100%;
+}
+@media (max-width: 600px) {
+    .link-container {
+        width:80vw;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+.link-left{
+    align-self: flex-start;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border: solid #b19cd9 3px;
+    height: 20rem;
+    width: 70rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    transition: 0.1s;
+}
+.link-left:hover{
+    transform: scale(0.95);
+    transition: 0.15s;
+}
+@media (max-width: 600px) {
+    .link-left {
+        width:80vw;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+.link-right{
+    align-self: flex-end;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border: solid #b19cd9 3px;
+    height: 20rem;
+    width: 70rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    transition: 0.1s;
+}
+.link-right:hover{
+    transform: scale(0.95);
+    transition: 0.15s;
+}
+@media (max-width: 600px) {
+    .link-right {
+        width:80vw;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+.link-text{
+    width: 50%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+}
+.link-text-header{
+    font-size: 3.5rem;
+    position: relative;
+    bottom: 2rem;
+}
+.link-text-desc{
+    font-size: 1.7rem;
+    position: relative;
+    bottom: 6rem;
+    font-weight: 200;
+}
+.s-link{
+    text-decoration: none;
+}
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+.home-button{
+    height: 3rem;
+    position: relative;
+    bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+    padding: 0.8rem 3rem;
+    width: 17rem;
+    border: 2px solid #b19cd9;
+    border-radius: 2px;
+    color: #b19cd9;
+    font-size: 2.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.home-button:hover{
+    transform: translateY(-3px);
 }
