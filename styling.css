@@ -402,10 +402,10 @@ a:hover{
         margin-right: auto
     }
 }
-.club-link{
+.c-link{
     text-decoration: none;
     color:#b19cd9;
 }
-.club-link:hover{
+.c-link:hover{
     color: white;
 }
